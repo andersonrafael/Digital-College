@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprodução da Imagem</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .top-bar {
+            background-color: #800080; /* Roxo */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .title {
+            color: #800080; /* Roxo */
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .paragraph {
+            color: #333;
+            font-size: 0.9em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .team-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team-title {
+            color: #800080; /* Roxo */
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .team-circle {
+            background-color: #800080; /* Roxo */
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        .team-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-name {
+            color: #333;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 2px;
+        }
+
+        .team-role {
+            color: #777;
+            font-size: 0.8em;
+        }
+
+        .footer {
+            background-color: #800080; /* Roxo */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">Francisco Anderson</div>
+        <div class="content">
+            <div class="title">Francisco Anderson</div>
+            <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="team-section">
+                <div class="team-title">Equipe</div>
+                <div class="team-members">
+                    <div class="team-info">
+                        <div class="team-circle"></div>
+                        <div class="team-name">Team 1</div>
+                        <div class="team-role">developer</div>
+                    </div>
+                    <div class="team-info">
+                        <div class="team-circle"></div>
+                        <div class="team-name">Team 2</div>
+                        <div class="team-role">developer</div>
+                    </div>
+                    <div class="team-info">
+                        <div class="team-circle"></div>
+                        <div class="team-name">Team 3</div>
+                        <div class="team-role">developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">todos os direitos reservados</div>
+    </div>
+</body>
+</html>
